@@ -1,0 +1,24 @@
+#is_flag fv_intro,true
+	#jump greeting
+	
+*intro
+#m Allison|3D:fv|"Hey, welcome to The Checkpoint's Kitchens, may not look like much but we have everything we need to keep people fed around here."
+#reveal fv
+#set_flag fv_intro,true
+#jump t
+
+*greeting
+#m Allison|3D:fv|"Welcome back, you looking for something to eat."
+
+*t
+#choice
+	trade|"Sure."
+	exit|"No, thanks."
+*trade
+	#m Allison|3D:fv|"Here's what's on offer."
+	#trade fv
+	#m Allison|3D:fv|"Hope you enjoy."
+	#exit
+*exit
+	#m Allison|3D:fv|"Until next time."
+#exit

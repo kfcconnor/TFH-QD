@@ -1,0 +1,7 @@
+#name Thomas|Thomas
+#set_stat Thomas|reputation|10
+
+#desc Name: Thomas
+#desc_append Age: 35
+#desc_append The local Smith at The Checkpoint, is often working on equipment for the Raven's Guard however normal has spare weapons and tools to trade with outsiders.
+#exit

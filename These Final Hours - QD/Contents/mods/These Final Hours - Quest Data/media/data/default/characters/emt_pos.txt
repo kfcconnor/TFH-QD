@@ -1,0 +1,2 @@
+#npc_create emt|medicalMerchant_normal|idle|3868,12838,0|W
+#exit

@@ -1,0 +1,7 @@
+#name gm|Colten
+#set_stat gm|reputation|10
+
+#desc Name: Colten
+#desc_append Age: 28
+#desc_append General trader of The Checkpoint, sells a little bit of alsorts for those who need it.
+#exit

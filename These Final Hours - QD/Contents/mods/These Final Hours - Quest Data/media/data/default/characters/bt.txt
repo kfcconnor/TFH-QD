@@ -1,0 +1,7 @@
+#name bt|Amanda
+#set_stat bt|reputation|10
+
+#desc Name: Amanda
+#desc_append Age: 28
+#desc_append Runs the bar in The Checkpoint, making a place for those in the Raven's Guard or just survivors to unwind and let off steam in this new world.
+#exit

@@ -1,0 +1,2 @@
+#npc_create gr|RG_Guard_1_normal|idle|3851,12841,0|N
+#exit

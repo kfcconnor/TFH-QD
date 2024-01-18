@@ -1,0 +1,7 @@
+#name qm|Private James
+#set_stat qm|reputation|10
+
+#desc Name: Private James
+#desc_append Age: 23
+#desc_append Private for the Raven's Guard, often found working in the Quartermaster's office where he handles buying scavenged goods from the people of the Checkpoint and outsiders.
+#exit

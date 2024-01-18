@@ -1,0 +1,24 @@
+#is_flag gm_intro,true
+	#jump greeting
+	
+*intro
+#m Colten|3D:gm|"Hey, haven't seen you in these parts before, welcome to The Checkpoint, there anything you need while your here?"
+#reveal gm
+#set_flag gm_intro,true
+#jump t
+
+*greeting
+#m Colten|3D:gm|"Welcome back, looking for some supplies for the road?"
+
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Colten|3D:gm|"Here's what we have."
+	#trade gm
+	#m Colten|3D:gm|"Stay safe out there."
+	#exit
+*exit
+	#m Colten|3D:gm|"Until next time."
+#exit

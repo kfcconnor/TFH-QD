@@ -1,0 +1,2 @@
+#npc_create fv|foodVender1_normal|idle|3887,12838,0|N
+#exit

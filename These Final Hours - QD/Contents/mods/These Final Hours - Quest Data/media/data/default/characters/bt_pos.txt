@@ -1,0 +1,2 @@
+#npc_create bt|bartender_normal|idle|3877,12788,0|W
+#exit

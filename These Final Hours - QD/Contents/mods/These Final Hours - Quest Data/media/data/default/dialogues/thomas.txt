@@ -1,0 +1,24 @@
+#is_flag th_intro,true
+	#jump greeting
+
+*intro
+#m Thomas|3D:Thomas|"Hey there, I don't think I've seen you around before. Welcome to my humble workshop, I have a few bits and peices going free if your looking to trade."
+#reveal Thomas
+#set_flag th_intro,true
+#jump t
+
+*greeting
+#m Thomas|3D:Thomas|"Welcome back, I still have some goods spare to trade if your needing anything."
+
+*t
+#choice
+	trade|"Sure, show me what you got."
+	exit|"No, thanks."
+*trade
+	#m Thomas|3D:Thomas|"I'll exchange these items for food and ration cards."
+	#trade Thomas
+	#m Thomas|3D:Thomas|"Until Next time."
+	#exit
+*exit
+	#m Thomas|3D:Thomas|"Well I'm always here if you need me."
+#exit

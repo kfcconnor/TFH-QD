@@ -1,0 +1,7 @@
+#name fv|Allison
+#sfv_stat fv|reputation|10
+
+#desc Name: Allison
+#desc_append Age: 23
+#desc_append Runs the Kitchen for the cooking of rations for the camp. Will provide goods to others who are willing to trade when she has some spare.
+#exit

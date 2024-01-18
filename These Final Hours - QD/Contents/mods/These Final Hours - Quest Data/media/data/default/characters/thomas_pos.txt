@@ -1,0 +1,2 @@
+#npc_create Thomas|weaponMerchant_normal|idle|3874,12841,0|N
+#exit

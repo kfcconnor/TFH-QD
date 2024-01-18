@@ -1,0 +1,7 @@
+#name emt|Eliot
+#set_stat emt|reputation|10
+
+#desc Name: Eliot
+#desc_append Age: 28
+#desc_append A doctor living within The Checkpoint, will trade medical supplies for those in need.
+#exit

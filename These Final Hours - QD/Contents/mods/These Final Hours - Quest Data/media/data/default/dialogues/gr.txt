@@ -1,0 +1,24 @@
+#is_flag gr_intro,true
+	#jump greeting
+	
+*intro
+#m Kathryn|3D:gr|"Welcome to Kathryn's Armoury, not quite as fancy as the Raven's Guard one back behind their fence, but I can help you have the edge you need out there."
+#reveal gr
+#set_flag gr_intro,true
+#jump t
+
+*greeting
+#m Kathryn|3D:gr|"Welcome back, You looking for some more firepower?"
+
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Kathryn|3D:gr|"Here's what's on offer."
+	#trade gr
+	#m Kathryn|3D:gr|"All guns are cleaned and tested by yours truely, can't leave these things to chance after all."
+	#exit
+*exit
+	#m Kathryn|3D:gr|"Until next time."
+#exit

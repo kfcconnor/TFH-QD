@@ -1,0 +1,15 @@
+#offer Base.Pills,1|10
+#offer Base.Bandaid,5|5
+#offer Base.Antibiotics,1|30
+#offer SpoonHealthPlus.SpoonVitaminMix,1|30
+#offer RC.OneRationCard,100|1
+#offer RC.FiveRationCard,100|5
+#offer RC.TenRationCard,100|10
+#offer RC.QuarterFullRationCard,100|25
+#offer RC.HalfFullRationCard,100|50
+#demand RC.OneRationCard|1
+#demand RC.FiveRationCard|5
+#demand RC.TenRationCard|10
+#demand RC.QuarterFullRationCard|25
+#demand RC.HalfFullRationCard|50
+#demand RC.FullRationCard|100

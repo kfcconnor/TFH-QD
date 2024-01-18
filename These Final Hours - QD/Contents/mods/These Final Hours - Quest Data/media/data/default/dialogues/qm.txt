@@ -1,0 +1,24 @@
+#is_flag qm_intro,true
+	#jump greeting
+	
+*intro
+#m Private James|3D:qm|"Hello, Not seen you here before. Welcome to the Quartermaster's office, if your here cause you've got stuff to sell that we need your in the right place."
+#reveal qm
+#set_flag qm_intro,true
+#jump t
+
+*greeting
+#m Private James|3D:qm|"Welcome back, looking to sell again?"
+
+*t
+#choice
+	trade|"Yeah, I've got some things you'd like."
+	exit|"No, thanks."
+*trade
+	#m Private James|3D:qm|"Sounds good, show me what you have and we can come to a deal."
+	#trade qm
+	#m Private James|3D:qm|"Pleasure doing business with you."
+	#exit
+*exit
+	#m Private James|3D:qm|"Maybe next time then."
+#exit

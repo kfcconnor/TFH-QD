@@ -1,0 +1,7 @@
+#name et|Jim
+#set_stat et|reputation|10
+
+#desc Name: Jim
+#desc_append Age: 46
+#desc_append The local ecentric of the camp, sells a collection of tapes and other bits of entertainment he finds out on his travels.
+#exit

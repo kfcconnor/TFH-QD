@@ -1,0 +1,24 @@
+#is_flag emt_intro,true
+	#jump greeting
+	
+*intro
+#m Eliot|3D:emt|"Hey, welcome to my Clinic. Don't think I've seen you here before, you need patching up?"
+#reveal emt
+#set_flag emt_intro,true
+#jump t
+
+*greeting
+#m Eliot|3D:emt|"Welcome back, you need patching up, or just some supplies for the road?"
+
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Eliot|3D:emt|"Here's what I have spare."
+	#trade emt
+	#m Eliot|3D:emt|"Hope it helps"
+	#exit
+*exit
+	#m Eliot|3D:emt|"Until next time."
+#exit

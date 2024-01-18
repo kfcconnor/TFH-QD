@@ -1,0 +1,15 @@
+#offer SapphCooking.LowballGlassBeer,5|3
+#offer SapphCooking.LowballGlassGin,5|5
+#offer SapphCooking.LowballGlassWhiskey,5|7
+#offer SapphCooking.LowballGlassCola,5|4
+#offer RC.OneRationCard,100|1
+#offer RC.FiveRationCard,100|5
+#offer RC.TenRationCard,100|10
+#offer RC.QuarterFullRationCard,100|25
+#offer RC.HalfFullRationCard,100|50
+#demand RC.OneRationCard|1
+#demand RC.FiveRationCard|5
+#demand RC.TenRationCard|10
+#demand RC.QuarterFullRationCard|25
+#demand RC.HalfFullRationCard|50
+#demand RC.FullRationCard|100

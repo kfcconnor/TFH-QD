@@ -1,0 +1,24 @@
+#is_flag et_intro,true
+	#jump greeting
+	
+*intro
+#m Jim|3D:et|"Hey, Not seen you round here before. Welcome to my shop, got a bunch of old knick knacks from before if your looking for something to take your mind off things in your travels."
+#reveal et
+#set_flag et_intro,true
+#jump t
+
+*greeting
+#m Jim|3D:et|"Welcome back, take a look around."
+
+*t
+#choice
+	trade|"Sure."
+	exit|"No, thanks."
+*trade
+	#m Jim|3D:et|"Everything here I've found on my own travels."
+	#trade et
+	#m Jim|3D:et|"Hope you found something you liked."
+	#exit
+*exit
+	#m Jim|3D:et|"Until next time."
+#exit

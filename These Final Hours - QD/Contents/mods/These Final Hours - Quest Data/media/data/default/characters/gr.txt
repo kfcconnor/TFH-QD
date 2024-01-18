@@ -1,0 +1,7 @@
+#name gr|Kathryn
+#set_stat gr|reputation|10
+
+#desc Name: Kathryn
+#desc_append Age: 35
+#desc_append An Ex-Solider who ended up in The Checkpoint, helps with gathering ammo and guns for the raven's Guard and travellers in the area for those the Guard don't need.
+#exit

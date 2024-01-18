@@ -1,0 +1,2 @@
+#npc_create qm|quartermaster_normal|idle|3806,12830,0|S
+#exit

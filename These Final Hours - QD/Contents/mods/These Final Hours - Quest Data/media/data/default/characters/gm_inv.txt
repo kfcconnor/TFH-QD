@@ -1,0 +1,16 @@
+#offer Base.Bag_DuffelBagTINT,1|35
+#offer Base.DuctTape,1|35
+#offer Base.Thread,1|15
+#offer Base.Needle,1|15
+#offer Base.Jumpstarter,1|75
+#offer RC.OneRationCard,100|1
+#offer RC.FiveRationCard,100|5
+#offer RC.TenRationCard,100|10
+#offer RC.QuarterFullRationCard,100|25
+#offer RC.HalfFullRationCard,100|50
+#demand RC.OneRationCard|1
+#demand RC.FiveRationCard|5
+#demand RC.TenRationCard|10
+#demand RC.QuarterFullRationCard|25
+#demand RC.HalfFullRationCard|50
+#demand RC.FullRationCard|100

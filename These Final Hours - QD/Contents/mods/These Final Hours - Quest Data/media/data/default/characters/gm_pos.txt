@@ -1,0 +1,2 @@
+#npc_create gm|gearMarchant_normal|idle|3843,12841,0|N
+#exit

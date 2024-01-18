@@ -1,0 +1,24 @@
+#is_flag bt_intro,true
+	#jump greeting
+	
+*intro
+#m Amanda|3D:bt|"Hey, a new face, been getting a lot of those lately. Welcome to the Drinking hole. Enjoy yourself but no causing trouble. Now what can I get you."
+#reveal bt
+#set_flag bt_intro,true
+#jump t
+
+*greeting
+#m Amanda|3D:bt|"Ahhh, good to see your still survivng out here. What can I get you?"
+
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Amanda|3D:bt|"Here's what we got"
+	#trade bt
+	#m Amanda|3D:bt|"Enjoy"
+	#exit
+*exit
+	#m Amanda|3D:bt|"Until next time."
+#exit

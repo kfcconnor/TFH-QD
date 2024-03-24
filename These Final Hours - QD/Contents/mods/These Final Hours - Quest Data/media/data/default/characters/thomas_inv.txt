@@ -5,8 +5,9 @@
 #offer Base.GardenFork,1|35
 #offer Base.Nightstick,1|35
 #offer Base.Crowbar,1|50
-#offer Base.ScrapSpear,1|150
-#offer Base.ScrapMachete,1|75
+#offer SWeapons.ScrapSpear,2|150
+#offer SWeapons.ScrapMachete,2|75
+#offer SWeapons.SharpenedStopSign,1|400
 #offer RC.OneRationCard,100|1
 #offer RC.FiveRationCard,100|5
 #offer RC.TenRationCard,100|10

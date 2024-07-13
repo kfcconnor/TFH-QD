@@ -1,0 +1,43 @@
+#is_flag th_intro,true
+	#jump greeting
+
+*intro
+ #m Anne|Anne.png|"Hello, I don't think we've met before. I'm Anne, the administrator here at Swards Market. If you need anything , just let me know.
+#reveal Anne
+#set_flag anne_intro,true
+#jump t
+
+*greeting
+#m Anne|3D:Anne|""Welcome back. are you looking for a job?"
+
+*t
+#choice
+	help|"Sure, what do you need."
+	exit|"no, not now"
+*help
+#is_quest anne1_q1|locked
+	#has_item Base.Crate,5
+        	 #jump an_q1_found
+	#m Anne|Anne.png|" I have a pick-up-job for you, Can you help me out for.. a 200 ration cards?"
+	#quest_unlock an_q1
+	#m "Sure, where is it?"
+	#task_unlock an_q1|t2
+	#m Anne|Anne.png|"there are Five small crates near the dumpster at smokey's, they are marked with "sward's market""
+	#m I'll find them
+	#exit
+#is_quest an_q1|unlocked,uncompleted
+	#m Anne|Anne.png|"Have you managed to find those crates I asked for?"
+	#has_item Base.Crate,5
+		*an_q1_found
+		#remove_item Base.Crate,5
+		#m *Player hands over the crates to Anne*
+		#m Anne|Anne.png|"Thank you, sometimes things needs a push to reach B, ere is your payment of 200 
+		#m Anne|Anne.png| Here is your payment of 200 cards
+		#set_flag an_q1_completed,true
+		#exit
+	#m "I'm still looking for the crates, but I haven't found them yet."
+	#exit
+
+*exit
+	#m Anne|3D:Anne|"Well I'm here, if you need me."
+	#exit

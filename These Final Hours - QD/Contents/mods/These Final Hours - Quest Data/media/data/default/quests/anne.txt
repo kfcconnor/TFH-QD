@@ -1,0 +1,12 @@
+#quest an_q1
+    #task t1|unlocked|hidden
+        #set FindItem|USMIL.Crate0Open,5
+    #task t2
+        #set LootContainer|crate|10638,9227,0|USMIL.Crate0Open,false|USMIL.Crate0Open,false
+    #task t3|unlocked|hidden
+        #set TaskCondition|an_q1|t1/t2,t3
+        #action UnlockTask|an_q1|t4
+    #task t4
+        #set RaiseFlag|an_q1_completed
+        #action #SelectReward|Rationcard100,2,common, true
+        #action CompleteQuest|an_q1

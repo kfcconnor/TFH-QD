@@ -1,0 +1,2 @@
+#npc_create Anne|Adminstrator_normal|idle|13472,3693,0|E
+#exit

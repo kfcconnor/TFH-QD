@@ -1,0 +1,7 @@
+Anne|Anne
+#set_stat Anne|reputation|10
+
+#desc Name: Anne
+#desc_append Age: 28
+#desc_append The local Adminstrator at Swards market, known for her skills in keeping the warehouse in order and truckers in somewhat order as well.
+#exit

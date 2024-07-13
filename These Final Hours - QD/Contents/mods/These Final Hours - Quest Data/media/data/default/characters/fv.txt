@@ -1,5 +1,5 @@
 #name fv|Allison
-#sfv_stat fv|reputation|10
+#set_stat fv|reputation|10
 
 #desc Name: Allison
 #desc_append Age: 23

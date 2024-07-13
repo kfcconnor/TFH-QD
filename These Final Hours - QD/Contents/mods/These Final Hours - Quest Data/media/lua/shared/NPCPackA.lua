@@ -84,7 +84,7 @@ local medicalMerchant = {
 local bartender = {
     name = "bartender_normal",
     script = "Base.FemaleFolk",
-    haircut = { "GrungeyBehindEars", {0.67,0.48,0.22} },
+    haircut = { "HatCurly", {0.67,0.48,0.22} },
     clothes = {
 		{ "Spongie.Shirt_QuiltedROLL", {0.20,0,1} },
 		{ "Socks_Long", {0.26,0.65,0.35} },
@@ -122,6 +122,21 @@ local rg_guard_1 = {
     }
 };
 
+local SMAdminstrator = {
+    name = "SMAdminstrator_normal",
+    script = "Base.FemaleFolk",
+    haircut = { "Longcurly", {0,0,0} },
+    clothes = {
+		"Base.Hat_HardHat",
+		{ "Base..Tshirt_whiteLongsleveSleeveTINT", {0.10,0.07,0.07} },
+		{ "Socks_Long", {0.26,0.65,0.35} },
+		"Base.Trousers_Fireman",
+		"Base.vestHighViz",
+		"Base.CBX_BOOT_1"
+    }
+};
+
+
 table.insert(MFManager.templates, sally_1);
 table.insert(MFManager.templates, weaponMerchant);
 table.insert(MFManager.templates, foodVender_1);
@@ -131,3 +146,4 @@ table.insert(MFManager.templates, medicalMerchant);
 table.insert(MFManager.templates, bartender);
 table.insert(MFManager.templates, quartermaster);
 table.insert(MFManager.templates, rg_guard_1);
+table.insert(MFManager.templates, SMAdminstrator_normal);

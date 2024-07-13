@@ -2,7 +2,7 @@
 	#jump greeting
 
 *intro
- #m Anne|Anne.png|"Hello, I don't think we've met before. I'm Anne, the administrator here at Swards Market. If you need anything , just let me know.
+ #m Anne|3D:Anne|"Hello, I don't think we've met before. I'm Anne, the administrator here at Swards Market. If you need anything , just let me know.
 #reveal Anne
 #set_flag anne_intro,true
 #jump t

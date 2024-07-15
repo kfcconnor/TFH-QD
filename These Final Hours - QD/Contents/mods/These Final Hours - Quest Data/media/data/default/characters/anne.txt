@@ -1,5 +1,5 @@
-Anne|Anne
-#set_stat Anne|reputation|10
+#name anne|Anne
+#set_stat anne|reputation|10
 
 #desc Name: Anne
 #desc_append Age: 28

@@ -17,7 +17,7 @@
 *help
 #is_quest anne_q1|locked
 	#m "*Anne searches through her clipboard until she stops at one paper*"
-	#has_item USMIL.Crate0Open,2
+	#has_item USMIL.Crate0Open,1
 		#jump anne_q1_found
 	#m anne|3D:anne|"I have a pick-up for you.. Can you help me out for.. 200 ration cards?"
 	#m "Sure, where is it?"
@@ -28,12 +28,12 @@
 	#exit
 #is_quest anne_q1|unlocked,uncompleted
 	#m anne|3D:anne|"Have you managed to find those crates I asked for?"
-	#has_item USMIL.Crate0Open,2
+	#has_item USMIL.Crate0Open,1
 		*anne_q1_found
-		#remove_item USMIL.Crate0Open,2
+		#remove_item USMIL.Crate0Open,1
 		#m "hands over the crates to Anne"
 		#m anne|3D:anne|"Thank you, sometimes things needs a push to arrive..Here is your payment of 200 cards."
-		#set_flag anne_q1_completed,true
+		#task_unlock anne_q1|t3
 		#exit
 	#m "I'm still looking for the crates, but I haven't found them yet."
 	#exit

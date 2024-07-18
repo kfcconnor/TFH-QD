@@ -1,9 +1,8 @@
 #quest anne_q1
     #task t1|unlocked|hidden
-        #set FindItem|USMIL.Crate0Open,2
+        #set FindItem|USMIL.Crate0Open,1
     #task t2|unlocked
-        #set LootContainer|crate|10637,9218,0|USMIL.Crate0Open,true|USMIL.Crate0Open,true
+        #set LootContainer|crate|10637,9218,0|USMIL.Crate0Open,true
     #task t3
-        #set RaiseFlag|anne_q1_completed
-        #action #SelectReward|Rationcard100,2,common, true
+        #action #SelectReward|RC.FullRationCard,2,common, true
         #action CompleteQuest|anne_q1

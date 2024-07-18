@@ -1,13 +1,9 @@
-#quest anne_q1|weekly
+#quest anne_q1
     #task t1|unlocked|hidden
-        #set FindItem|USMIL.CrateoOpen,5
-    #task t2
-        #set LootContainer|Crate|10638,9227,0|USMIL.CrateoOpen,false|USMIL.CrateoOpen,false
-		#action UnlockTask|anne_q1|t3
-    #task t3|unlocked|hidden
-        #set TaskCondition|anne_q1|t1/t2,t3
-        #action UnlockTask|anne_q1|t4
-    #task t4
+        #set FindItem|USMIL.Crate0Open,2
+    #task t2|unlocked
+        #set LootContainer|crate|10637,9218,0|USMIL.Crate0Open,true|USMIL.Crate0Open,true
+    #task t3
         #set RaiseFlag|anne_q1_completed
         #action #SelectReward|Rationcard100,2,common, true
         #action CompleteQuest|anne_q1

@@ -33,7 +33,7 @@
 		#remove_item USMIL.Crate0Open,1
 		#m "hands over the crates to Anne"
 		#m anne|3D:anne|"Thank you, sometimes things needs a push to arrive..Here is your payment of 200 cards."
-		#task_unlock anne_q1|t3
+		#set_flag anne_q1_completed,true
 		#exit
 	#m "I'm still looking for the crates, but I haven't found them yet."
 	#exit

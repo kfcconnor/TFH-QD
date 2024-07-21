@@ -32,9 +32,10 @@ local foodVender_1 = {
     script = "Base.FemaleFolk",
     haircut = { "F_KotonePonytail", {0.21,0.16,0.10} },
     clothes = {
+	"Hat_ChefHat",
         { "Shirt_FormalTINT", {0.14,0.14,0.15} },
         { "Socks_Long", {0.07,0.07,0.07} },
-        { "Trousers_Denim", 1 },
+	"Trousers_chef",
 		{ "Jacket_Flight", 0 },
 		{ "Shoes_Random", 0 },
         { "Glasses_Reading", 1 }
@@ -44,12 +45,12 @@ local foodVender_1 = {
 local foodVender_2 = {
     name = "foodVender2_normal",
     script = "Base.MaleFolk",
-    haircut = { "DukeBuzzCut" , {0.62,0.42,0.16} },
+    haircut = { "Buffont" , {0.62,0.42,0.16} },
     clothes = {
-		{ "Tshirt_PoloTINT" , {0.84,0.55,0.85} },
+		{ "Tshirt_PoloTINT" , {0.99,0.55,0.85} },
 		{ "Socks_Ankle", {0.27,0.22,0.27} },
 		{ "Trousers_Denim", 3 },
-		"Jacket_Chef",
+		{ "Base.LongCoat_Bathrobe", {0.84,0.44,0.40} },
 		{"Shoes_TrainerTINT", {0.50,0.29,0.53} }
     }
 };
@@ -73,6 +74,7 @@ local medicalMerchant = {
     haircut = { "M_YukariAlt", {0.18,0.12,0.07} },
     clothes = {
 		"Hat_SurgicalMask_Blue",
+		"JacketLong_Doctor",
 		{ "Tshirt_PoloTINT", {0.48,0.31,0.70} },
 		{ "Shirt_FormalTINT", {0.85,0.43,0.37} },
 		{ "Socks_Ankle", {0.08,0.07,0.08} },
@@ -102,8 +104,9 @@ local quartermaster = {
 		"CBX_CAPARM_2",
 		{ "Shirt_FormalTINT", {0.55,0.62,0.45} },
 		{ "Socks_Ankle", {0.32,0.64,0.69} },
+		"Base.Vest_HighViz",
 		"SMUIClothing.Trousers_CamoUrban",
-		"SMUIClothing.Jacket_ArmyCamoUrban",
+		"SMUIClothing.Jacket_Duckhunter",
 		"Shoes_ArmyBoots"
     }
 };
@@ -116,6 +119,7 @@ local rg_guard_1 = {
 		"SMUIClothing.Hat_MilitaryHelmet",
 		{ "Base.Tshirt_DefaultTEXTURE_TINT", {0.10,0.07,0.07} },
 		{ "Socks_Long", {0.26,0.65,0.35} },
+		"SMUIClothing.MilitaryWebbing",
 		"SMUIClothing.Trousers_CamoUrban",
 		"SMUIClothing.Jacket_ArmyCamoUrban",
 		"Shoes_Strapped"
@@ -127,9 +131,9 @@ local smadmin = {
     script = "Base.FemaleFolk",
     haircut = { "F_KotonePonytail", {0.21,0.16,0.10} },
     clothes = {
-		"Hat_SurgicalMask_Blue",
-		{ "Tshirt_PoloTINT", {0.48,0.31,0.70} },
-		{ "Shirt_FormalTINT", {0.85,0.43,0.37} },
+		"Base.Hat_BaseballCapBlue",
+		"Base.Vest_HighViz",
+		"Tshirt_Fossoil",
 		{ "Socks_Ankle", {0.08,0.07,0.08} },
 		"Trousers_SuitTEXTURE",
 		{"Shoes_Random", 0}

@@ -13,12 +13,17 @@
 *t
 #choice
 	trade|Trade
+	crate_info|Ask about the missing crate
 	exit|Leave
 *trade
 	#m Amanda|3D:bt|"Here's what we got"
 	#trade bt
 	#m Amanda|3D:bt|"Enjoy"
 	#exit
+*crate_info
+	#m Amanda|3D:bt|"Ah, you've seen those crates outside the north gate? Some of them have been there for a while, perhaps your missing crate is there
+	#m "Thanks for the info."
+	#jump t
 *exit
 	#m Amanda|3D:bt|"Until next time."
 #exit

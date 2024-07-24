@@ -1,0 +1,2 @@
+#npc_create net|enfieldtrader_normal|idle|8581,9464,0|S
+#exit

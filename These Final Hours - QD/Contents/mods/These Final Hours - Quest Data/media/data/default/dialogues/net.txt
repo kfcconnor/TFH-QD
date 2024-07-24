@@ -1,0 +1,24 @@
+#is_flag net_intro,true
+	#jump greeting
+	
+*intro
+#m Erin|3D:net|"Welcome to New Enfield stranger, let me know if your looking to trade or if you just need some help. We all need to stick together these days."
+#reveal net
+#set_flag net_intro,true
+#jump t
+
+*greeting
+#m Erin|3D:net|"Welcome back, looking for some supplies for the road?"
+
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Erin|3D:net|"Here's what we have."
+	#trade net
+	#m Erin|3D:net|"Stay safe out there."
+	#exit
+*exit
+	#m Erin|3D:net|"Until next time."
+#exit

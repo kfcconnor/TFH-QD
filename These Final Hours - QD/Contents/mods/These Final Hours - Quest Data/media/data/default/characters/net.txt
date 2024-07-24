@@ -1,0 +1,7 @@
+#name net|Erin
+#set_stat net|reputation|0
+
+#desc Name: Erin
+#desc_append Age: 23
+#desc_append Mans the trader stall in the New Enfield Market, often helps with trades as well as helping new survivors she meets find their way.
+#exit

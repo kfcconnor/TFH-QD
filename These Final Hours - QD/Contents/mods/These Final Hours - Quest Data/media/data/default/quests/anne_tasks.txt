@@ -1,17 +1,17 @@
 *anne_q1_t1
-#name find teh small outside the bar
+#name find the crate outside Smokey's in Muldraugh
 *anne_q1_t2
-#name Five Crates outside the bar
+#name find the crate outside Smokey's in Muldraugh
 *anne_q1_t3
-#name Five Crates found, back to Anne in Swards market
+#name find the crate outside Smokey's in Muldraugh
 *anne_q1_t4
-#name Five Crates found, back to sdafdsadfa
+#name find the crate outside Smokey's in Muldraugh
 
 *anne_q2_t1
-#name find teh small outside the bar
+#name find the crate outside the eternal light church in AW17
 *anne_q2_t2
-#name Five Crates outside the bar
+#name find the crate outside the eternal light church in AW17
 *anne_q2_t3
-#name Five Crates found, back to Anne in Swards market
+#name Ffind the crate outside the eternal light church in AW17
 *anne_q2_t4
-#name Five Crates found, back to sdafdsadfa
+#name find the crate outside the eternal light church in AW17

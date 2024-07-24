@@ -15,7 +15,7 @@
     #task t1|unlocked|hidden
         #set FindItem|USMIL.Crate0militaryOpen,1
     #task t2|unlocked
-        #set LootContainer|crate|13530,3660,0|USMIL.Crate0militaryOpen,true
+        #set LootContainer|crate|14549,4991,0|USMIL.Crate0militaryOpen,true
         #action UnlockTask|anne_q2|t3
     #task t3|unlocked|hidden
         #set FindItem|USMIL.Crate0militaryOpen,1

@@ -4,4 +4,4 @@
 
 *anne_q2
 #name Pick-up at Smokey's
-#desc Anne afind random crate
+#desc Anne at the warehouse in "Swards Market" asked me to pick up a crate near Eternal light church in.. AW17 on a military map

@@ -38,9 +38,9 @@
 	#task_unlock anne_q1|t2
 	#exit
 *select_quest_2
-	#m anne|3D:anne|"I need some medical supplies. Can you find 3 bandages and 2 painkillers for me?"
+	#m anne|3D:anne|"I need a crate thats been lost near "Eternal Light Chapel, someone lost it there for reasons I don't know.
 	#m "Where is it."
-	#m anne|3D:anne|"There should be a small crate near the entrance at meepmeep"
+	#m anne|3D:anne|"if you have A milititary map it's on AW17, take the highway south and before the old airport you turn left"
 	#quest_unlock anne_q2
 	#task_unlock anne_q2|t2
 	#exit
@@ -58,21 +58,21 @@
 	#m "I'm still looking for the crate, but I haven't found it yet."
 	#exit
 #is_quest anne_q2|unlocked,uncompleted
-	#m anne|3D:anne|"Have you managed to get those medical supplies I asked for?"
+	#m anne|3D:anne|"Have you managed to get that lost crate?"
 	#has_item USMIL.Crate0militaryOpen,1
 		*anne_q2_found
 		#remove_item USMIL.Crate0militaryOpen,1
-		#m "Hands over the medical supplies to Anne."
-		#m anne|3D:anne|"Thank you, this will be a great help. Here are some medical supplies as a reward."
+		#m "Hands over the crate."
+		#m anne|3D:anne|"Finally, perhaps now Jim will shut up about it. here is your payment of 200 cards"
 		#set_flag anne_q2_completed,true
 		#task_unlock anne_q2|t4
 		#exit
-	#m "I'm still looking for the supplies, but I haven't found them yet."
+	#m "I'm still looking for the crate, but I haven't found them yet."
 	#exit
-#m "You don't have anythingto hand in.."
+#m "I don't remember you on the job list.. nope, can't see your name"
 #exit
 
 
 *exit
-	#m anne|3D:anne|"Well, I will still be around if you need a job."
+	#m anne|3D:anne|"Well, I will still be around here, if you need a job."
 	#exit

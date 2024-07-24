@@ -1,3 +1,7 @@
 *anne_q1
 #name Pick-up at Smokey's
-#desc Anne at the warehouse in "Swards Market" asked me to pick up some  crates in Smokey's bar in Muldraugh
+#desc Anne at the warehouse in "Swards Market" asked me to pick up a crate at Smokey's bar in Muldraugh
+
+*anne_q2
+#name Pick-up at Smokey's
+#desc Anne afind random crate

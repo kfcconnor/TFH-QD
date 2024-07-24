@@ -1,4 +1,4 @@
-#quest anne_q1
+#quest anne_q1|weekly
     #task t1|unlocked|hidden
         #set FindItem|USMIL.Crate0Open,1
     #task t2|unlocked
@@ -11,7 +11,7 @@
         #action SelectReward|RC.FullRationCard,2,common
         #action CompleteQuest|anne_q1
 
-#quest anne_q2
+#quest anne_q2|weekly
     #task t1|unlocked|hidden
         #set FindItem|USMIL.Crate0militaryOpen,1
     #task t2|unlocked

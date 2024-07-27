@@ -1,0 +1,7 @@
+#name rgt|Barry
+#set_stat rgt|reputation|10
+
+#desc Name: Barry
+#desc_append Age: 35
+#desc_append Barry is keeping things in order and making sure that nothing goes boom.. unintentionally
+#exit

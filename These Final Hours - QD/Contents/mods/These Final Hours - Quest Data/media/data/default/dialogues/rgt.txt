@@ -1,0 +1,38 @@
+#is_flag rgt_intro,true
+	#jump greeting
+	
+*intro
+#m Barry|3D:rgt|"Welcome to Fort greene, not quite as fancy as the old checkpoint, but I can help you have the edge you need out there."
+#reveal rgt
+#set_flag rgt_intro,true
+#jump t
+
+*greeting
+#roll select_greeting1,20|select_greeting2,40|select_greeting3,60|select__greeting4,80|select__greeting5,100
+	*select_greeting1
+		#m Barry|3D:rgt|"Welcome back, You looking for some more firepower?"
+		#jump t
+	*select_greeting2
+		#m Barry|3D:rgt|"Aw shit, it's you again. Ready to upgrade your arsenal?"
+		#jump t
+	*select_greeting3
+		#m Barry|3D:rgt|"Bullets, blades, and badassery – that's my motto! What can I get ya?"
+		#jump t
+	*select_greeting4
+		#m Barry|3D:rgt|"Hey there, survivor! Need some firepower to tackle the Raven creek? I got ya covered!"
+		#jump t
+	*select_greeting5
+		#m Barry|3D:rgt|"Already back in Fort Greene? Let's see what stock I have for you today."
+		#jump t
+*t
+#choice
+	trade|Trade
+	exit|Leave
+*trade
+	#m Barry|3D:rgt|"Here's what I can offer today."
+	#trade rgt
+	#m Barry|3D:rgt|"Good luck out there"
+	#exit
+*exit
+	#m Barry|3D:rgt|"allright, see ya around"
+#exit

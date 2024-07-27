@@ -140,6 +140,21 @@ local smadmin = {
     }
 };
 
+local rgt = {
+    name = "rgt_normal",
+    script = "Base.FemaleFolk",
+    haircut = { "F_AigisAlt", {0.10,0.09,0.08} },
+    clothes = {
+		"SMUIClothing.Hat_MilitaryHelmet",
+		{ "Base.Tshirt_DefaultTEXTURE_TINT", {0.10,0.07,0.07} },
+		{ "Socks_Long", {0.26,0.65,0.35} },
+		"SMUIClothing.MilitaryWebbing",
+		"SMUIClothing.Trousers_CamoUrban",
+		"SMUIClothing.Jacket_ArmyCamoUrban",
+		"Shoes_Strapped"
+    }
+};
+
 local enfieldtrader = {
     name = "enfieldtrader_normal",
     script = "Base.FemaleFolk",
@@ -163,4 +178,5 @@ table.insert(MFManager.templates, bartender);
 table.insert(MFManager.templates, quartermaster);
 table.insert(MFManager.templates, rg_guard_1);
 table.insert(MFManager.templates, smadmin);
+table.insert(MFManager.templates, rgt);
 table.insert(MFManager.templates, enfieldtrader);

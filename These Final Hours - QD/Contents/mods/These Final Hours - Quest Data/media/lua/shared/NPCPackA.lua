@@ -140,6 +140,19 @@ local smadmin = {
     }
 };
 
+local enfieldtrader = {
+    name = "enfieldtrader_normal",
+    script = "Base.FemaleFolk",
+    haircut = { "F_AigisAlt", {0.10,0.09,0.08} },
+    clothes = {
+		{ "Spongie.Shirt_QuiltedROLL", {0.20,0,1} },
+		{ "Socks_Long", {0.26,0.65,0.35} },
+		{ "Trousers_DefaultTEXTURE_TINT", {0.54,0.40,0.54} },
+		{ "Jumper_VNeck", {0.545098066329956,0.34117648005485535,0.3960784375667572} },
+		"Shoes_Strapped"
+    }
+};
+
 table.insert(MFManager.templates, sally_1);
 table.insert(MFManager.templates, weaponMerchant);
 table.insert(MFManager.templates, foodVender_1);
@@ -150,3 +163,4 @@ table.insert(MFManager.templates, bartender);
 table.insert(MFManager.templates, quartermaster);
 table.insert(MFManager.templates, rg_guard_1);
 table.insert(MFManager.templates, smadmin);
+table.insert(MFManager.templates, enfieldtrader);

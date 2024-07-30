@@ -1,3 +1,10 @@
+#offer Base.PokerBox_sealed,1|10
+#offer Base.UnoCards,1|10
+#offer Base.ChessBox_sealed,1|10
+#offer Base.PlayingCards1,1|10
+#offer Base.CheckersBox_sealed,1|10
+#offer Base.BackgammonBox_sealed,1|10
+#offer Tsarcraft.CassetteStack,1|100
 #offer Tsarcraft.Cassette2pacTrapped(1991),1|10
 #offer Tsarcraft.CassetteAHaTakeOnMe(1985),1|10
 #offer Tsarcraft.CassetteBlackSabbathParanoid(1970),1|10

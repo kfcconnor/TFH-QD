@@ -2,6 +2,11 @@
 #offer SapphCooking.LowballGlassGin,5|5
 #offer SapphCooking.LowballGlassWhiskey,5|7
 #offer SapphCooking.LowballGlassCola,5|4
+#offer Base.Peanuts,5|12
+#offer Base.Crisps3,5|18
+#offer Base.Painauchocolat,5|12
+#offer SapphCooking.SapphNoodlesSoup,5|12
+#offer Base.Sandwich,5|15
 #offer RC.OneRationCard,100|1
 #offer RC.FiveRationCard,100|5
 #offer RC.TenRationCard,100|10

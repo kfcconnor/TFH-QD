@@ -1,2 +1,2 @@
-#npc_create rgt|rgt_normal|idle|13461,3707,0|E
+#npc_create rgt|rgt_normal|idle|11832,5871,0|E
 #exit

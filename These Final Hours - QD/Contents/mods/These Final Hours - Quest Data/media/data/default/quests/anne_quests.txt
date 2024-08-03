@@ -3,5 +3,22 @@
 #desc Anne at the warehouse in "Swards Market" asked me to pick up a crate at Smokey's bar in Muldraugh
 
 *anne_q2
-#name Pick-up at Smokey's
-#desc Anne at the warehouse in "Swards Market" asked me to pick up a crate near Eternal light church in.. AW17 on a military map
+#name Crate near the Eternal Light
+#desc Anne at the warehouse in "Swards Market" asked me to pick up a crate near Eternal Light Church in AW17 on a military map
+
+*anne_q3
+#name Bullet-Mold Mystery
+#desc There should be a .308 Bullet-mold somewhere in new enfield in AC32.. Talk to trader?.
+
+*anne_q4
+#name A crate lost somewhere Riverside
+#desc Anne in "Swards Market" asked me to find a mold for shotgun-pellets, somewhere east of riverside in a barn..Y19."
+
+*anne_q5
+#name Mold Hunt in Fort Redstone
+#desc Anne at the warehouse in "Swards Market" asked me to find the mold for the 9mm in fort redsone, Helipad on S40
+
+
+*anne_q6
+#name Collect Scrap Metal
+#desc Anne at the warehouse in "Swards Market" asked me to collect 5 scrap metals from the junkyard.

@@ -23,3 +23,55 @@
         #set RaiseFlag|anne_q2_completed
         #action SelectReward|RC.FullRationCard,2,common
         #action CompleteQuest|anne_q2
+
+#quest anne_q3|weekly
+    #task t1|unlocked|hidden
+        #set FindItem|Base.308BulletsMold,1
+    #task t2|unlocked
+        #set LootContainer|crate|8576,9460,0|Base.308BulletsMold,true
+        #action UnlockTask|anne_q3|t3
+    #task t3|unlocked|hidden
+        #set FindItem|Base.308BulletsMold,1
+    #task t4|unlocked
+        #set RaiseFlag|anne_q3_completed
+        #action SelectReward|RC.FullRationCard,2,common
+        #action CompleteQuest|anne_q3
+
+#quest anne_q4|weekly
+    #task t1|unlocked|hidden
+        #set FindItem|Base.ShotgunShellsMold,1
+    #task t2|unlocked
+        #set LootContainer|crate|7211,5507,0|Base.ShotgunShellsMold,true
+        #action UnlockTask|anne_q4|t3
+    #task t3|unlocked|hidden
+        #set FindItem|Base.ShotgunShellsMold,1
+    #task t4|unlocked
+        #set RaiseFlag|anne_q4_completed
+        #action SelectReward|RC.FullRationCard,2,common
+        #action CompleteQuest|anne_q4
+
+#quest anne_q5|weekly
+    #task t1|unlocked|hidden
+        #set FindItem|Base.9mmBulletsMold,1
+    #task t2|unlocked
+        #set LootContainer|crate|5572,11904,0|Base.9mmBulletsMold,true
+        #action UnlockTask|anne_q5|t3
+    #task t3|unlocked|hidden
+        #set FindItem|Base.9mmBulletsMold,1
+    #task t4|unlocked
+        #set RaiseFlag|anne_q5_completed
+        #action SelectReward|RC.FullRationCard,3,common
+        #action CompleteQuest|anne_q5
+
+#quest anne_q6|weekly
+    #task t1|unlocked|hidden
+        #set FindItem|Base.Mov_PaintingBetty,1
+    #task t2|unlocked
+        #set LootContainer|crate|5860,5521,0|Base.Mov_PaintingBetty,true
+        #action UnlockTask|anne_q6|t3
+    #task t3|unlocked|hidden
+        #set FindItem|Base.Mov_PaintingBetty,1
+    #task t4|unlocked
+        #set RaiseFlag|anne_q6_completed
+        #action SelectReward|RC.FullRationCard,2,common
+        #action CompleteQuest|anne_q6

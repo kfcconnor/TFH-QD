@@ -5,13 +5,49 @@
 *anne_q1_t3
 #name find the crate outside Smokey's in Muldraugh
 *anne_q1_t4
-#name find the crate outside Smokey's in Muldraugh
+#name deliver the package to the Anne
 
 *anne_q2_t1
-#name find the crate outside the eternal light church in AW17
+#name find the crate outside the Eternal Light Church in AW17
 *anne_q2_t2
-#name find the crate outside the eternal light church in AW17
+#name find the crate outside the Eternal Light Church in AW17
 *anne_q2_t3
-#name Ffind the crate outside the eternal light church in AW17
+#name find the crate outside the Eternal Light Church in AW17
 *anne_q2_t4
-#name find the crate outside the eternal light church in AW17
+#name deliver the package to the Anne
+
+*anne_q3_t1
+#name Find the mold for the .308 barn outside Riverside, Y19
+*anne_q3_t2
+#name Find the mold for the .308 barn outside Riverside, Y19
+*anne_q3_t3
+#name Find the mold for the .308 barn outside Riverside, Y19
+*anne_q3_t4
+#name deliver the package to the Anne
+
+*anne_q4_t1
+#name Find the mold for the pellets
+*anne_q4_t2
+#name Find the mold for the pellets
+*anne_q4_t3
+#name found the mold, back to Anne
+*anne_q4_t4
+#name Find the mold for the pellets
+
+*anne_q5_t1
+#name FFind the mold for the .308, helipad in redstone
+*anne_q5_t2
+#nameFind the mold for the .308, helipad in redstone
+*anne_q5_t3
+#name  Find the mold for the .308, helipad in redstone
+*anne_q5_t4
+#name return to Anne at Swards Market with the mold
+
+*anne_q6_t1
+#name Find the painting outside riverside, barn somewhere on T19
+*anne_q6_t2
+#name Find the painting outside riverside, barn somewhere on T19
+*anne_q6_t3
+#name Find the painting outside riverside, barn somewhere on T19
+*anne_q6_t4
+#name Deliver painting for Anne at sward market

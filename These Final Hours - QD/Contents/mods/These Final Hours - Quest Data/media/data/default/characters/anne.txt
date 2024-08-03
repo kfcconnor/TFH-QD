@@ -1,7 +1,171 @@
-#name anne|Anne
-#set_stat anne|reputation|10
+#is_flag anne_intro,true
+	#jump greeting
 
-#desc Name: Anne
-#desc_append Age: 28
-#desc_append The local Adminstrator at Swards market, known for her skills in keeping the warehouse in order and truckers in somewhat order as well.
+*intro
+#m anne|3D:anne|"Hello, I don't think we've met before. I'm Anne, the administrator here at Swards Market. If you need anything, just let me know."
+#reveal anne
+#set_flag anne_intro,true
+#jump t
+
+*greeting
+#m anne|3D:anne|"Welcome back. Are you looking for a job?"
+
+*t
+#choice
+	help|"Sure, what do you need done?"
+	handin|"I have the items you asked for."
+	exit|"No, not now."
+*help
+
+#is_quest anne_q1|completed
+#is_quest anne_q2|completed
+#is_quest anne_q3|completed
+#is_quest anne_q4|completed
+#is_quest anne_q5|completed
+#is_quest anne_q6|completed
+	#m anne|3D:anne|"*looks down* sorry, it seems like all jobs are handed out, come back later."
+	#exit
+#is_quest anne_q1|locked
+#is_quest anne_q2|locked
+#is_quest anne_q3|locked
+#is_quest anne_q4|locked
+#is_quest anne_q5|locked
+#is_quest anne_q6|locked
+
+	#m "*Anne searches through her clipboard until she stops at one paper*"
+	#is_quest anne_q1|completed
+		*jump select_quest_2
+	#is_quest anne_q2|completed
+		*jump select_quest_3
+	#is_quest anne_q3|completed
+		*jump select_quest_4
+	#is_quest anne_q4|completed
+		*jump select_quest_5
+	#is_quest anne_q5|completed
+		*jump select_quest_6
+	#is_quest anne_q6|completed
+		*jump select_quest_1
+	#roll select_quest,16|select_quest_2,31|select_quest_3,48|select_quest_4,68|select_quest_5,83|select_quest_6,100
+*select_quest
+	#m anne|3D:anne|"I have a pick-up for you. Can you help me out for 200 ration cards?"
+	#m "Sure, where is it?"
+	#m anne|3D:anne|"There should be a small crate near the entrance at Smokey's, marked with 'Sward's Market'."
+	#m "I'll pick them up."
+	#quest_unlock anne_q1
+	#task_unlock anne_q1|t2
+	#exit
+*select_quest_2
+	#m anne|3D:anne|"I need a crate that's been lost near Eternal Light Chapel. Someone lost it there for reasons I don't know."
+	#m "Where is it?"
+	#m anne|3D:anne|"If you have a military map, it's on AW17. Take the highway south and before the old airport, turn left."
+	#quest_unlock anne_q2
+	#task_unlock anne_q2|t2
+	#exit
+*select_quest_3
+	#m anne|3D:anne|"I do have a job.. someone forgot to pick-up a .308 mold in New Enfield, can you fix it?"
+	#m "Sure, I can do that."
+	#m anne|3D:anne|"If you have the military map, you can find New Enfield in AC32"
+	#quest_unlock anne_q3
+	#task_unlock anne_q3|t2
+	#exit
+*select_quest_4
+	#m anne|3D:anne|"We need to find a mold for shotgun-pellets, last time it was seen in a barn at Riverside"
+	#m "sure, where is this barn?"
+	#m anne|3D:anne|"if you look on the map of Riverside.. the barn should be on the east side.. somewhere on Y19"
+	#quest_unlock anne_q4
+	#task_unlock anne_q4|t2
+	#exit
+*select_quest_5
+	#m anne|3D:anne|"a trucker had a mishap and took a crate of.. toys with him instead. Can you get me the mold for making 9mm bullets."
+	#m "I'll see what I can do."
+	#m anne|3D:anne|"the crate where the mold are near a Helipad in Fort Redstone.. S40 on a military map"
+	#quest_unlock anne_q5
+	#task_unlock anne_q5|t2
+	#exit
+*select_quest_6
+	#m anne|3D:anne|I have a painting thats has been lost, last time i heard of it was from a trucker south of Riverside"
+	#m "Sure, where do you want me to look?"
+	#m anne|3D:anne|"jonas, the trucker had been setting up camp in an old barn south of riverside.. think he said it was close to the road on map.. T19"
+	#quest_unlock anne_q6
+	#task_unlock anne_q6|t2
+	#exit
+*handin
+#is_quest anne_q1|unlocked,uncompleted
+	#m anne|3D:anne|"Have you managed to get that crate I asked for?"
+	#has_item USMIL.Crate0Open,1
+		*anne_q1_found
+		#remove_item USMIL.Crate0Open,1
+		#m "Hands over the crate to Anne."
+		#m anne|3D:anne|"Thank you, sometimes things need a push to arrive. Here is your payment of 200 cards."
+		#set_flag anne_q1_completed,true
+		#task_unlock anne_q1|t4
+		#exit
+	#m "I'm still looking for the crate, but I haven't found it yet."
+	#exit
+#is_quest anne_q2|unlocked,uncompleted
+	#m anne|3D:anne|"Have you managed to get that lost crate?"
+	#has_item USMIL.Crate0militaryOpen,1
+		*anne_q2_found
+		#remove_item USMIL.Crate0militaryOpen,1
+		#m "Hands over the crate."
+		#m anne|3D:anne|"Finally, perhaps now Jim will shut up about it. Here is your payment of 200 cards."
+		#set_flag anne_q2_completed,true
+		#task_unlock anne_q2|t4
+		#exit
+	#m "I'm still looking for the crate, but I haven't found it yet."
+	#exit
+#is_quest anne_q3|unlocked,uncompleted
+	#m anne|3D:anne|"have you managed to get that bullet-mold, that jack forgot?"
+	#has_item Base.308BulletsMold,1
+		*anne_q3_found
+		#remove_item Base.308BulletsMold,1
+		#m "reluctanly hands over the .308 mold"
+		#m anne|3D:anne|"Thank you! Here are your 200 ration cards."
+		#set_flag anne_q3_completed,true
+		#task_unlock anne_q3|t4
+		#exit
+	#m "I'm still searching."
+	#exit
+#is_quest anne_q4|unlocked,uncompleted
+	#m anne|3D:anne|"Have you managed to find the lost mold for shotgun-pellets?"
+	#has_item Base.ShotgunShellsMold,1
+		*anne_q4_found
+		#remove_item Base.ShotgunShellsMold,1
+		#m "Hands over the pellet mold."
+		#m anne|3D:anne|"Great job! Here are your 200 ration cards."
+		#set_flag anne_q4_completed,true
+		#task_unlock anne_q4|t4
+		#exit
+	#m "I'm still looking for the supplies, but I haven't found them yet."
+	#exit
+#is_quest anne_q5|unlocked,uncompleted
+	#m anne|3D:anne|"have you found the lost delivery yet?"
+	#has_item Base.9mmBulletsMold,1
+		*anne_q5_found
+		#remove_item Base.9mmBulletsMold,1
+		#m "Hands the mold for bullets"
+		#m anne|3D:anne|"Since you showed some effort with this I will give you extra, 300 ration cards."
+		#set_flag anne_q5_completed,true
+		#task_unlock anne_q5|t4
+		#exit
+	#m "I'm still for the crate, but I haven't found it yet."
+	#exit
+#is_quest anne_q6|unlocked,uncompleted
+	#m anne|3D:anne|"Did you find the painting?.. Riverside, was it right?"
+	#has_item Base.Mov_PaintingBetty,1
+		*anne_q6_found
+		#remove_item Base.Mov_PaintingBetty,1
+		#m "Hands over the painting"
+		#m anne|3D:anne|"Good! Here are your 200 ration cards."
+		#set_flag anne_q6_completed,true
+		#task_unlock anne_q6|t4
+		#exit
+	#m "I'm still looking for the painting, but I haven't found it yet."
+	#exit
+#m "I don't remember you on the job list.. nope, can't see your name."
 #exit
+
+
+*exit
+	#m anne|3D:anne|"Well, I will still be around here, if you need a job."
+	#exit

@@ -22,7 +22,7 @@ local weaponMerchant = {
 		"Tshirt_Fossoil",
         { "Socks_Long", {0.45,0.67,0.87} },
         { "Trousers_Denim", 0 },
-        { "CBX_Kurtk_1", 0 },
+        { "Base.Kurtk_1", 0 },
         { "Shoes_TrainerTINT", {0.58,0.44,0.40} }
     }
 };
@@ -35,8 +35,7 @@ local foodVender_1 = {
 	"Hat_ChefHat",
         { "Shirt_FormalTINT", {0.14,0.14,0.15} },
         { "Socks_Long", {0.07,0.07,0.07} },
-	"Trousers_chef",
-		{ "Jacket_Flight", 0 },
+	"Base.Trousers_Chef",
 		{ "Shoes_Random", 0 },
         { "Glasses_Reading", 1 }
     }
@@ -101,12 +100,12 @@ local quartermaster = {
     script = "Base.MaleFolk",
     haircut = { "M_PartedTail", {0.21,0.08,0.05} },
     clothes = {
-		"CBX_CAPARM_2",
+		"Base.CAPARM_2",
 		{ "Shirt_FormalTINT", {0.55,0.62,0.45} },
 		{ "Socks_Ankle", {0.32,0.64,0.69} },
 		"Base.Vest_HighViz",
 		"SMUIClothing.Trousers_CamoUrban",
-		"SMUIClothing.Jacket_Duckhunter",
+		"SMUIClothing.Jacket_DuckHunter",
 		"Shoes_ArmyBoots"
     }
 };

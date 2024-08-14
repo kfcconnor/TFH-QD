@@ -9,7 +9,7 @@
 #offer Base.NoiseTrap,2|200
 #offer Base.Bullets9mmBox,1|25
 #offer Base.ShotgunShellsBox,1|25
-#offer Base.223Box,1|25
+#offer Base.223Box,4|25
 #offer Base.38Box,1|25
 #offer Base.308Box,1|75
 #offer Base.HolsterSimple,1|30

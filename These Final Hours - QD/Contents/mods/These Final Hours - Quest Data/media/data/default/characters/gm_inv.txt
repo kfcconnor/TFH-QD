@@ -1,10 +1,10 @@
 #offer Base.Bag_DuffelBagTINT,1|35
-#offer Base.DuctTape,3|35
+#offer Base.DuctTape,5|35
 #offer Base.Thread,1|15
 #offer Base.Needle,1|15
 #offer Base.Jumpstarter,1|75
 #offer Base.Soap2,2|5
-#offer Base.Vinegar,2|20
+#offer Base.Vinegar,3|20
 #offer Base.BoxOfJars,1|20
 #offer camping.CampingTentKit,1|50
 #offer Base.ScrapLegPouchL,1|30

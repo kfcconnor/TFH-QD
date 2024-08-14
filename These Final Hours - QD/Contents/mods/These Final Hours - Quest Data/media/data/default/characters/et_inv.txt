@@ -10,7 +10,7 @@
 #offer Tsarcraft.CassetteBlackSabbathParanoid(1970),1|10
 #offer Tsarcraft.CassetteELOMrBlueSky(1977),1|10
 #offer Tsarcraft.CassetteEaglesHotelCalifornia(1977),1|10
-#offer Tsarcraft.CassetteNWAFuckThePolice,1|10
+#offer Tsarcraft.CassetteNWAFuckthePolice,1|10
 #offer Tsarcraft.CassetteNewOrderBlueMonday88(1983),1|10
 #offer Tsarcraft.CassetteRollingStonesPaintItBlack(1966),1|10
 #offer Tsarcraft.CassetteREMIt'stheendoftheworldasweknowit(andIfeelfine)(1987),1|10
@@ -21,7 +21,7 @@
 #offer Tsarcraft.VinylBlackSabbathParanoid(1970),1|10
 #offer Tsarcraft.VinylELOMrBlueSky(1977),1|10
 #offer Tsarcraft.VinylEaglesHotelCalifornia(1977),1|10
-#offer Tsarcraft.VinylNWAFuckThePolice,1|10
+#offer Tsarcraft.VinylNWAFuckthePolice,1|10
 #offer Tsarcraft.VinylNewOrderBlueMonday88(1983),1|10
 #offer Tsarcraft.VinylRollingStonesPaintItBlack(1966),1|10
 #offer Tsarcraft.VinylREMIt'stheendoftheworldasweknowit(andIfeelfine)(1987),1|10

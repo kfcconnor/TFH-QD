@@ -1,2 +1,2 @@
-#npc_create fv|foodVender1_normal|idle|13443,3714,0|E
+#npc_create fv|foodVender1_normal|idle|13444,3713,0|E
 #exit

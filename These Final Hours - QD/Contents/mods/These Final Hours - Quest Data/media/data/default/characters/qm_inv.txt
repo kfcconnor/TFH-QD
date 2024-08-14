@@ -17,7 +17,6 @@
 #demand Base.308Box|120
 #demand Base.308Bullets|3
 #demand Base.LightBulb|5
-#demand AuthenticZclothing.Vest_BulletBlack|50
 #demand Base.Vest_BulletArmy|50
 #demand Base.Vest_BulletPolice|50
 #demand Base.DuctTape|15

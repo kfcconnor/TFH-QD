@@ -8,7 +8,7 @@
 
 *anne_q3
 #name Bullet-Mold Mystery
-#desc There should be a .308 Bullet-mold somewhere in new enfield in AC32.. Talk to trader?.
+#desc There should be a .308 Bullet-mold somewhere in new enfield in AC32?.
 
 *anne_q4
 #name A crate lost somewhere Riverside

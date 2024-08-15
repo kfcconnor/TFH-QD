@@ -4,11 +4,11 @@
 #offer Base.Needle,1|15
 #offer Base.Jumpstarter,1|75
 #offer Base.Soap2,2|5
-#offer Base.Vinegar,3|20
-#offer Base.BoxOfJars,1|20
+#offer Base.Vinegar,8|80
+#offer Base.BoxOfJars,5|20
 #offer camping.CampingTentKit,1|50
 #offer Base.ScrapLegPouchL,1|30
-#offer SapphCooking.MRE_Pack2,4|8
+#offer SapphCooking.MRE_Pack2,4|40
 #offer Radio.WalkieTalkie5,1|700 
 #offer SM.SMFullPack,1|30
 #offer RC.OneRationCard,100|1

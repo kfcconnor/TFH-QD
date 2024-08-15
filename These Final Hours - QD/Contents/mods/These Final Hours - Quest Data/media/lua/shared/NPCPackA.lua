@@ -115,13 +115,12 @@ local rg_guard_1 = {
     script = "Base.FemaleFolk",
     haircut = { "F_AigisAlt", {0.10,0.09,0.08} },
     clothes = {
-		"SMUIClothing.Hat_MilitaryHelmet",
 		{ "Base.Tshirt_DefaultTEXTURE_TINT", {0.10,0.07,0.07} },
 		{ "Socks_Long", {0.26,0.65,0.35} },
 		"SMUIClothing.MilitaryWebbing",
 		"SMUIClothing.Trousers_CamoUrban",
 		"SMUIClothing.Jacket_ArmyCamoUrban",
-		"Shoes_Strapped"
+		"Base.Shoes_StrappedBoots"
     }
 };
 
@@ -142,15 +141,14 @@ local smadmin = {
 local rgt = {
     name = "rgt_normal",
     script = "Base.FemaleFolk",
-    haircut = { "F_AigisAlt", {0.10,0.09,0.08} },
+    haircut = { "Long", {0.83,0.67,0.27} },
     clothes = {
-		"SMUIClothing.Hat_MilitaryHelmet",
-		{ "Base.Tshirt_DefaultTEXTURE_TINT", {0.10,0.07,0.07} },
-		{ "Socks_Long", {0.26,0.65,0.35} },
-		"SMUIClothing.MilitaryWebbing",
-		"SMUIClothing.Trousers_CamoUrban",
-		"SMUIClothing.Jacket_ArmyCamoUrban",
-		"Shoes_Strapped"
+		"BWardrobe.Top_Jacket2_Army_BSize",
+		"AuthenticZClothing.Gloves_LeatherGlovesBlackFull",
+		"Base.Necklace_Choker",
+		"AuthenticZClothing.Bikini_Pattern04",
+		"Base.Trousers_ArmyService_Thight",
+		"Base.Shoes_StrappedBoots"
     }
 };
 

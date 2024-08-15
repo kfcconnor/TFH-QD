@@ -1,7 +1,7 @@
-#name rgt|Barry
+#name rgt|Sergeant Wolfe
 #set_stat rgt|reputation|10
 
-#desc Name: Barry
+#desc Name: Sergeant Anastasia “Tasia” Wolfe
 #desc_append Age: 35
-#desc_append Barry is keeping things in order and making sure that nothing goes boom.. unintentionally
+#desc_append trader at Raven Guard
 #exit

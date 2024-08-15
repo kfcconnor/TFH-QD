@@ -1,19 +1,19 @@
-#offer Base.Pistol,1|25
+#offer Base.Pistol,3|25
 #offer Base.9mmClip,1|5
 #offer Base.Revolver_Short,1|30
-#offer Base.DoubleBarrelShotgun,1|50
-#offer Base.VarmintRifle,1|50
+#offer Base.DoubleBarrelShotgun,1|100
+#offer Base.VarmintRifle,2|100
 #offer Base.AssaultRifleM1, 1|500
 #offer Base.EntrenchingTool_Blunt,2|50
 #offer Base.Vest_BulletCivilian,2|200
 #offer Base.NoiseTrap,2|200
-#offer Base.Bullets9mmBox,1|25
-#offer Base.ShotgunShellsBox,1|25
+#offer Base.Bullets9mmBox,3|25
+#offer Base.ShotgunShellsBox,3|50
 #offer Base.223Box,4|25
-#offer Base.38Box,1|25
-#offer Base.308Box,1|75
+#offer Base.Bullets38Box,2|25
+#offer Base.308Box,3|75
 #offer Base.HolsterSimple,1|30
-#offer Base.x2Scope,1|40
+#offer Base.x2Scope,1|50
 #offer Base.Sling,1|35
 #offer Base.Laser,1|75
 #offer RC.OneRationCard,100|1

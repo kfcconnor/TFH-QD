@@ -4,7 +4,25 @@
 *intro
 #m Erin|3D:net|"Welcome to New Enfield stranger, let me know if your looking to trade or if you just need some help. We all need to stick together these days."
 #reveal net
+#m Erin|3D:net|"Since you are my 101 th customer and therefore you will have a reward for it. Do you want a knife, a mace or something to keep the distance?"
+#choice
+	1|Good as new Survival knife, it was found in.. a good thorax. 
+	2|Former Table leg, it's now a handcrafted mace.
+	3|Stick with a pointy metal end on it, think you can call it a spear. 
+*1
+#add_item BCGTools.SurvivalKnife,1
 #set_flag net_intro,true
+#exit
+*2
+#add_item Base.TableLeg,1
+#set_flag net_intro,true
+#exit
+*3
+#add_item Base.SWeapons.SpearScrapShiv,1
+#set_flag net_intro,true
+#exit
+
+
 #jump t
 
 *greeting

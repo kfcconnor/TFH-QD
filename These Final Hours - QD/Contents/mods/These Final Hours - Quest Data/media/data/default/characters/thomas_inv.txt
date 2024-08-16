@@ -1,5 +1,5 @@
 #offer Base.HuntingKnife,1|35
-#offer Base.Axe,1|75
+#offer Base.Axe,3|75
 #offer Base.BaseballBat,1|50
 #offer BCGTools.KukriMachete,1|100
 #offer Base.GardenFork,1|35

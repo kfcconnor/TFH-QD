@@ -34,7 +34,7 @@
 *exit
 	#roll select_exit1,33|select_exit2,66|select_exit3,100
 	*select_exit1
-		#m Sergeant Wolfe|3D:rgt|Good hunting."
+		#m Sergeant Wolfe|3D:rgt|"Good hunting."
 		#exit
 	*select_exit2
 		#m Sergeant Wolfe|3D:rgt|"The hunt never ends."

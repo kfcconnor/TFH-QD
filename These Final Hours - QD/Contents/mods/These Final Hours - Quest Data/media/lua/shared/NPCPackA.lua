@@ -143,12 +143,12 @@ local rgt = {
     script = "Base.FemaleFolk",
     haircut = { "Long", {0.83,0.67,0.27} },
     clothes = {
-		"BWardrobe.Top_Jacket2_Army_BSize",
-		"AuthenticZClothing.Gloves_LeatherGlovesBlackFull",
 		"Base.Necklace_Choker",
-		"AuthenticZClothing.Bikini_Pattern04",
-		"Base.Trousers_ArmyService_Thight",
-		"Base.Shoes_StrappedBoots"
+		"Base.Underpants_Black",
+		"Base.WristWatch_Left_DigitalBlack",
+		{"base.Vest_defaultTEXTURE_TINT",  {0,0,0} }, 
+		"SMUIClothing.Trousers_TigerstripeTucked",
+		"SMUIClothing.Shoes_JungleBoots"
     }
 };
 
